@@ -1,4 +1,4 @@
-# ** ⚡ PowerPulse: Household Energy Usage Forecast**
+# **⚡ PowerPulse: Household Energy Usage Forecast**
 
 ## **🎯 Problem Statement**
 
@@ -25,11 +25,11 @@ In today’s world, managing household energy is essential for both consumers an
 ------------
 ## **⚙️ Tools & Technologies**
 
-**1. Programming Language : Python 🐍**
+### **1. Programming Language : Python 🐍**
 
 Primary language for data analysis, preprocessing, modeling, and visualization.
 
-**2. Libraries & Frameworks**
+### **2. Libraries & Frameworks**
 
 ➤ Pandas: Data manipulation and cleaning
 
@@ -43,7 +43,7 @@ Primary language for data analysis, preprocessing, modeling, and visualization.
 
 ➤ Statsmodels: Time series modeling 
 
-**3. Machine Learning Techniques**
+### **3. Machine Learning Techniques**
 
 ❖ Regression models: Predict energy consumption
 
@@ -51,7 +51,7 @@ Primary language for data analysis, preprocessing, modeling, and visualization.
 
 ❖ Isolation Forest: Anomaly detection
 
-**4. Visualization & Reporting**
+### **4. Visualization & Reporting**
 
 ○ PowerPoint (PPTX): Business-friendly presentations
 
@@ -93,7 +93,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 **Goal:** Monitor and optimize household energy consumption to reduce bills and promote efficient habits.
 
-**Key Focus Areas:**
+### **Key Focus Areas:**
 
 - Daily/weekly usage trends
   
@@ -101,7 +101,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
   
 - Peak hour analysis & cost estimation
 
-**📅 Daily & Weekly Usage Trends**
+### **📅 Daily & Weekly Usage Trends**
 
 **Insight:** Usage is consistently high during evenings
 
@@ -112,7 +112,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 ![daily](https://github.com/user-attachments/assets/067039c0-e048-48e1-9451-8993135bdd26)
 
 ----------------
-**🔋 Appliance Breakdown (Sub-Metering)**
+### **🔋 Appliance Breakdown (Sub-Metering)**
 
 **Insight:** Kitchen (Sub_metering_1) consumes the most energy
 
@@ -125,7 +125,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 ![submeter](https://github.com/user-attachments/assets/d1e95ffc-55ab-46c0-94b8-1a8f1d709120)
 
 ------------
-**⏰ Peak Hour Identification**
+### **⏰ Peak Hour Identification**
 
 **Insight:** Highest usage between 6 PM and 9 PM
 
@@ -136,7 +136,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 ![peak](https://github.com/user-attachments/assets/93591fcf-5bfe-475c-8c8d-8ae7dbb14d46)
 
 --------------
-**💸 Estimated Daily Cost**
+### **💸 Estimated Daily Cost**
 
 **Insight:** Energy cost can vary greatly based on usage
 
@@ -147,7 +147,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 ![image](https://github.com/user-attachments/assets/b9e6e99e-2324-4d9a-9b44-8f56f485543f)
 
 ----------------------
-**🧐 Final Recommendations (Use Case 1)**
+### **🧐 Final Recommendations (Use Case 1)**
 
 ❃ Shift heavy appliance use to mornings
 
@@ -160,7 +160,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 **Business Insight:**  Our model forecasts demand 30 days ahead, enabling grid operators to prepare for high-demand days and optimize distribution.
 
-**Key Analysis:**
+### **Key Analysis:**
 
 - Prophet-based forecasting model
   
@@ -168,7 +168,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
   
 - Visual demand trends
 
-**🔄 Forecast Accuracy Metrics**
+### **🔄 Forecast Accuracy Metrics**
 
 ✅ RMSE: 647.12 kWh (Root Mean Squared Error)
 
@@ -179,7 +179,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 ![image](https://github.com/user-attachments/assets/14543bc8-ed03-47ba-8305-14cda3c193e9)
 
 
-**📉 Predicted Demand Spike (Insight Tag)**
+### **📉 Predicted Demand Spike (Insight Tag)**
 
 🔢 Forecasted spike on Feb 12th, 2025 — 2588.50 kWh
 
@@ -187,7 +187,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 📢 Enable demand-response programs on that day
 
-**🧐 Business Recommendations (Use Case 2)**
+### **🧐 Business Recommendations (Use Case 2)**
 
 ❃ Use demand predictions to offer peak-hour incentives
 
@@ -200,13 +200,13 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 **Goal:** Detect abnormal energy patterns using statistical and ML techniques to identify faults, misuse, or unexpected surges.
 
-**Techniques Used:**  
+### **Techniques Used:**  
 
 - Z-score on Global Active Power
   
 - Isolation Forest using multivariate features
 
-**📊 Executive Summary**
+### **📊 Executive Summary**
 
 ➤ Built anomaly detection using Isolation Forest
 
@@ -214,11 +214,11 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ➤ Enables early detection of appliance faults or unusual activity
 
-**🤖 Model & Features Used**
+### **🤖 Model & Features Used**
 
 **Algorithm:** Isolation Forest (unsupervised outlier detection)
 
-**Features Used:**
+### **Features Used:**
 
 🔹 Global Active Power
 
@@ -228,7 +228,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 🔹 Sub_metering_3 (Water heater / AC)
 
-**🔍 Anomaly Detection Output**
+### **🔍 Anomaly Detection Output**
 
 ⬤ Detected 174 anomaly points out of 17,391 hourly records
 
@@ -236,7 +236,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ![image](https://github.com/user-attachments/assets/a36fa765-6986-49c0-8a26-fb8f568f5c12)
 
-**📊 Anomaly Count by Day**
+### **📊 Anomaly Count by Day**
 
 ❋ Visualizing daily distribution of anomalies
 
@@ -244,7 +244,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ![image](https://github.com/user-attachments/assets/7f99ae2f-7c80-442b-baf2-9701a9204f08)
 
-**🔹 Key Findings**
+### **🔹 Key Findings**
 
 ⚠️ Most anomalies detected on weekends
 
@@ -252,7 +252,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 🧐 Potential appliance issue (e.g., water heater running at odd hours)
 
-**🧠 Recommendations (Use Case 3)**
+### **🧠 Recommendations (Use Case 3)**
 
 ❃ Set automated alerts on anomaly detection
 
@@ -265,7 +265,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 **Business Goal:**  Predict peak load and grid stress. Use these predictions to simulate control actions like turning off high-load appliances to reduce grid pressure.
 
-**What We’ll Do:**
+### **What We’ll Do:**
 
 - Create `is_peak` and `grid_stress` labels
   
@@ -273,7 +273,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
   
 - Simulate control logic (e.g., auto shut-off of devices)
 
-**📊 Executive Summary**
+### **📊 Executive Summary**
 
 ✧ Predicts energy demand spikes (peak loads)
 
@@ -283,7 +283,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ✧ Enables integration with smart devices like Raspberry Pi or ESP32
 
-**🔧 Predictive Model Setup**
+### **🔧 Predictive Model Setup**
 
 **Labels Generated:**
 
@@ -291,7 +291,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ❖ grid_stress: high power + unstable voltage
 
-**Features Used:**
+### **Features Used:**
 
 ❉ Global Active Power
 
@@ -301,7 +301,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ❉ **Model:** Random Forest Classifier (91% accuracy)
 
-**🔢 Control Logic Simulation**
+### **🔢 Control Logic Simulation**
 
 ✿ If predicted_peak == 1 → Suggest Turn Off AC (sub_metering_3)
 
@@ -309,7 +309,7 @@ https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+cons
 
 ✿ Can be deployed to edge devices for real-time execution
 
-**🌀 Visual: Power Usage & Control Overlay**
+### **🌀 Visual: Power Usage & Control Overlay**
 
 Legend:
 
@@ -319,7 +319,7 @@ Legend:
 
 ![image](https://github.com/user-attachments/assets/ef530df7-b6fb-4491-820f-edc6bcd6eddb)
 
-**📊 Result Summary**
+### **📊 Result Summary**
 
 🔌 Detected peak periods accurately with 91% model accuracy
 
@@ -327,7 +327,7 @@ Legend:
 
 ⏱️ Control timeline aligns with actual energy surges
 
-**🚀 Recommendations**
+### **🚀 Recommendations**
 
 ❃ Connect model to live smart meter feed
 
@@ -340,7 +340,7 @@ Legend:
 
 **Business Goal:**  Estimate CO₂ savings after implementing energy-saving strategies like peak avoidance and efficient usage.
 
-**What We’ll do:**
+### **What We’ll do:**
 
 - Estimate CO₂ based on usage
 
@@ -348,7 +348,7 @@ Legend:
 
 - Break down savings by appliance category
 
-**📊 Executive Summary**
+### **📊 Executive Summary**
 
 ➤ Estimated household CO₂ emissions from energy usage
 
@@ -358,7 +358,7 @@ Legend:
 
 ➤ Visual breakdown by appliance type
 
-**🔧 Analysis Setup**
+### **🔧 Analysis Setup**
 
 **Data Used:** Daily Global Active Power (kWh)
 
@@ -370,7 +370,7 @@ Legend:
 
 "After" = 12% reduction from peak avoidance & smart scheduling
 
-**📊 CO₂ Emission Comparison**
+### **📊 CO₂ Emission Comparison**
 
 ✦ Daily CO₂ emissions compared over 30 days
 
@@ -378,7 +378,7 @@ Legend:
 
 ![image](https://github.com/user-attachments/assets/ea3db674-fd20-4184-94c9-07ef9482b96a)
 
-**🌱 Appliance-Level CO₂ Breakdown**
+### **🌱 Appliance-Level CO₂ Breakdown**
 
 ❉ Simulated CO₂ contributions by usage zone:
 
@@ -392,7 +392,7 @@ Others: 15%
 
 ![image](https://github.com/user-attachments/assets/60f12d5a-9d19-4957-97be-d0f263aea4a3)
 
-**🧐 Key Insights**
+### **🧐 Key Insights**
 
 🌱 12% reduction in carbon footprint after optimizations
 
@@ -400,7 +400,7 @@ Others: 15%
 
 💸 Estimated monthly savings: ₹300
 
-**🌿 Sustainability Impact**
+### **🌿 Sustainability Impact**
 
 🔸 Helps achieve Net Zero and ESG goals
 
@@ -408,7 +408,7 @@ Others: 15%
 
 🔸 Encourages smart habits and responsible appliance use
 
-**🚀 Recommendations**
+### **🚀 Recommendations**
 
 ❃ Scale analysis to multiple households
 
@@ -433,7 +433,7 @@ The PowerPulse project successfully demonstrates how machine learning and data a
 
 ✔ With a high R² of 0.9990, low RMSE (0.0353), and effective anomaly tagging, the project delivers both technical robustness and real-world value.
 
-**🔮 Future Recommendations**
+## **🔮 Future Recommendations**
 
 💡 **Real-Time Deployment:** Integrate the model into IoT devices (e.g., Raspberry Pi, ESP32) for real-time monitoring and control of household appliances.
 
